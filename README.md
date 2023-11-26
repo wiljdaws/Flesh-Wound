@@ -15,8 +15,8 @@ pip install scrapy
 ### Cloning the Repo
 
 ```bash
-   scrapy runspider endpoint.py
-   ```
+scrapy runspider endpoint.py
+```
 
 ### Running the Spider
 
