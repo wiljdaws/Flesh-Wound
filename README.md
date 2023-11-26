@@ -7,7 +7,7 @@ This Scrapy spider, named "endpoint-spider," is designed to crawl and scrape lin
 ### Prerequisites
 
 Before using the spider, make sure you have Python, Scrapy, and other dependencies installed. 
-- You can install them using the following:
+### You can install them using the following:
 
 ```bash
 pip install scrapy
