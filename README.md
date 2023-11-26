@@ -19,7 +19,7 @@ pip install scrapy
    ```bash
    cd scrapy
    ```
-  ![giphy](https://github.com/wiljdaws/scrapy/assets/98637668/2deb4181-b5d3-469c-b11f-acd7ba5133b2)
+   ![giphy](https://github.com/wiljdaws/scrapy/assets/98637668/2deb4181-b5d3-469c-b11f-acd7ba5133b2)
 
    
 3. Run the spider using the following command:
