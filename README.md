@@ -12,16 +12,22 @@ Before using the spider, make sure you have Python, Scrapy, and other dependenci
 pip install scrapy
 ```
 
+### Cloning the Repo
+
+```bash
+   scrapy runspider endpoint.py
+   ```
+
 ### Running the Spider
 
 1. Navigate to the scrapy directory.
 
    ```bash
-   cd scrapy
+   cd scrapy/scrapy
    ```
    ![jim](https://github.com/wiljdaws/scrapy/assets/98637668/a73320a1-daa5-4790-a067-3d52b6f2f650)
    
-3. Run the spider using the following command:
+2. Run the spider using the following command:
 
    ```bash
    scrapy runspider endpoint.py
