@@ -53,7 +53,9 @@ git clone https://github.com/wiljdaws/scrapy.git
 
 ### Endpoint Spider in Action
 
-![Spider in Action](https://github.com/wiljdaws/scrapy/assets/98637668/3fd9e8cc-22f1-4fbd-beb4-0f910f71cac0)
+https://github.com/wiljdaws/scrapy/assets/98637668/4a93cfaf-e9a9-40b8-84c7-4a128516d4cd
+
+
 
 ## Author
 
