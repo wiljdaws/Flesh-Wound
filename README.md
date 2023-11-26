@@ -38,7 +38,7 @@ git clone https://github.com/wiljdaws/scrapy.git
 
    Replace `wikipedia` with your desired base name.
    - If no base is provided
-      - default is `finance.yahoo`
+      - default: `finance.yahoo`
 
 ### Spider Behavior
 
