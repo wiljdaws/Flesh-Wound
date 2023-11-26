@@ -52,5 +52,6 @@ https://github.com/wiljdaws/scrapy/assets/98637668/3fd9e8cc-22f1-4fbd-beb4-0f910
 
 - Author: Dawson J. Williams
 - Contact: wiljdaws@amazon.com
+- LinkedIn: https://www.linkedin.com/in/djwsoftdev/
 
 Feel free to modify and customize the spider according to your needs. 
