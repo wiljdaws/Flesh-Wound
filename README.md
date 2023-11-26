@@ -27,12 +27,14 @@ git clone https://github.com/wiljdaws/scrapy.git
    ```bash
    cd scrapy/scrapy
    ```
+   ![jim](https://github.com/wiljdaws/scrapy/assets/98637668/062d0bb9-3973-43c6-92bc-ef4bc61b4b5f)
 
 2. Run the spider using the following command:
 
    ```bash
    scrapy runspider endpoint.py -a base=wikipedia
    ```
+   ![zack](https://github.com/wiljdaws/scrapy/assets/98637668/c3906339-2207-45b1-81be-1b3b0045652b)
 
    Replace `wikipedia` with your desired base name. If no base is provided, the default is `finance.yahoo`.
 
