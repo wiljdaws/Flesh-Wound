@@ -24,8 +24,6 @@ pip install scrapy
    ```bash
    scrapy runspider endpoint.py
    ```
-
- you can watch at https://clipchamp.com/watch/On6mceljVMA
  
 ### Spider Behavior
 
@@ -38,7 +36,12 @@ pip install scrapy
 ### File Structure
 
 - The spider creates a directory named 'wikipedia' if it doesn't exist.
-- Inside this directory, it saves the unique links to a file named `endpoints.txt`.
+- Inside this directory,
+
+ it saves the unique links to a file named `endpoints.txt`.
+
+### Endpoint Spider in Action
+https://github.com/wiljdaws/scrapy/assets/98637668/6d7365a7-4617-4153-8506-e1f87e21dff7
 
 ## Author
 
