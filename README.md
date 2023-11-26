@@ -19,16 +19,14 @@ pip install scrapy
    ```bash
    cd scrapy
    ```
-   ![zack](https://github.com/wiljdaws/scrapy/assets/98637668/05e5f0c6-2116-4f50-8c63-083f1f0a848c)
-
-
+   ![jim](https://github.com/wiljdaws/scrapy/assets/98637668/a73320a1-daa5-4790-a067-3d52b6f2f650)
    
 3. Run the spider using the following command:
 
    ```bash
    scrapy runspider endpoint.py
    ```
- 
+   ![zack](https://github.com/wiljdaws/scrapy/assets/98637668/05e5f0c6-2116-4f50-8c63-083f1f0a848c)
 ### Spider Behavior
 
 - The spider starts by visiting the default specified Wikipedia page (`https://www.wikipedia.com`) and extracts links from the page.
