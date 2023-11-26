@@ -41,7 +41,10 @@ pip install scrapy
  it saves the unique links to a file named `endpoints.txt`.
 
 ### Endpoint Spider in Action
-https://github.com/wiljdaws/scrapy/assets/98637668/6d7365a7-4617-4153-8506-e1f87e21dff7
+
+https://github.com/wiljdaws/scrapy/assets/98637668/3fd9e8cc-22f1-4fbd-beb4-0f910f71cac0
+
+
 
 ## Author
 
