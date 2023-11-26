@@ -19,6 +19,8 @@ pip install scrapy
    ```bash
    cd scrapy
    ```
+   https://media.giphy.com/media/ne3xrYlWtQFtC/giphy.gif
+   
 3. Run the spider using the following command:
 
    ```bash
