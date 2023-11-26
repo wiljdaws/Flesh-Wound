@@ -42,11 +42,16 @@ git clone https://github.com/wiljdaws/scrapy.git
 
 ### Spider Behavior
 
-- The spider starts by visiting the default specified Wikipedia page (`https://www.wikipedia.com`) or the specified base page (default is `https://www.finance.yahoo.com`) and extracts links from the page.
-- It saves unique links to a file named `endpoints.txt` within a directory named after the specified base.
-- The spider follows internal links on the page to other pages, recursively collecting links.
-- It also looks for tables on the page using CSS selectors (`table` and `div.data-table`) and extracts tabular data.
-- Extracted tabular data is printed in dictionary format.
+- The spider starts by visiting the default specified page
+   - In this case
+      - `https://www.wikipedia.com`
+   - Or the default base page if none is specified
+      - `https://www.finance.yahoo.com`
+   - Extracts links and tables from the page.
+      - It saves unique links to a file named `endpoints.txt` within a directory named after   the specified base.
+      - The spider follows internal links on the page to other pages, recursively collecting links.
+      - It also looks for tables on the page using CSS selectors (`table` and `div.data-table`) and extracts tabular data.
+      - Extracted tabular data is saved to the tables folder.
 
 ### File Structure
 
@@ -55,11 +60,7 @@ git clone https://github.com/wiljdaws/scrapy.git
 
 ### Endpoint Spider in Action
 
-
 https://github.com/wiljdaws/scrapy/assets/98637668/2a27351a-4e1a-4a35-bd45-67b3e87d3ca2
-
-
-
 
 
 ## Author
