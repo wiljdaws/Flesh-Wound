@@ -48,9 +48,14 @@ git clone https://github.com/wiljdaws/scrapy.git
    - Or the default base page if none is specified
       - `https://www.finance.yahoo.com`
    - Extracts links and tables from the page.
-      - It saves unique links to a file named `endpoints.txt` within a directory named after   the specified base.
-      - The spider follows internal links on the page to other pages, recursively collecting links.
-      - It also looks for tables on the page using CSS selectors (`table` and `div.data-table`) and extracts tabular data.
+      - It saves unique links to a file named `endpoints.txt`
+         - within a directory named after the specified base (website).
+      - The spider follows internal links on the page to other pages
+         - recursively collects links.
+      - It also looks for tables on the page
+         - uses CSS selectors
+            - `table` and `div.data-table`
+            - extracts tabular data.
       - Extracted tabular data is saved to the tables folder.
 
 ### File Structure
