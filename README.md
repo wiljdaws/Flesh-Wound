@@ -17,7 +17,7 @@ pip install scrapy
 ### Cloning the Repo
 
 ```bash
-scrapy runspider endpoint.py
+git clone https://github.com/wiljdaws/scrapy.git
 ```
 
 ### Running the Spider
