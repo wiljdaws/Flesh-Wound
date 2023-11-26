@@ -67,6 +67,12 @@ git clone https://github.com/wiljdaws/scrapy.git
 
 https://github.com/wiljdaws/scrapy/assets/98637668/2a27351a-4e1a-4a35-bd45-67b3e87d3ca2
 
+### Disclaimer
+
+**Note:** Ensure that your use of this spider complies with all applicable laws and regulations. Respect the terms of service of the websites you are scraping. Unauthorized scraping may violate the terms of service of a website and could lead to legal consequences. Use this spider responsibly and ethically.
+
+**Disclaimer:** The author of this spider is not legally responsible for any misuse, unlawful activities, or violations of terms of service that may occur in the use of this spider. Users are solely responsible for their actions.
+
 
 ## Author
 
