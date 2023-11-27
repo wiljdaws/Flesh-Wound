@@ -30,14 +30,18 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    ```bash
    cd Flesh-Wound/flesh_wound
    ```
-   ![jim](https://github.com/wiljdaws/scrapy/assets/98637668/062d0bb9-3973-43c6-92bc-ef4bc61b4b5f)
+   <div align="center">
+  <img src="https://media4.giphy.com/media/fQZX2aoRC1Tqw/200w.webp?cid=ecf05e47jgva86pyiiyllph7g0li5ey6gjqtdqxnzj103crn&ep=v1_gifs_search&rid=200w.webp&ct=g" alt="bruce alighty typing gif">
+</div>
+
 
 2. Run the spider using the following command:
 
    ```bash
    scrapy runspider endpoint.py -a base=wikipedia
    ```
-   ![zack](https://github.com/wiljdaws/scrapy/assets/98637668/c3906339-2207-45b1-81be-1b3b0045652b)
+   <img src="https://media0.giphy.com/media/3owzW5c1tPq63MPmWk/giphy.gif?cid=ecf05e47k7ubd0lvev4naa1rpubar1ory073zotrubsgoudl&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="calculating gif">
+</div>
 
    Replace `wikipedia` with your desired base (website) name.
    - If no base is provided
