@@ -71,8 +71,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
 
 https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-de6c7afad6f4
 
----
-<div align="center">
+<p align="center">
    ![montyp_1](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/d7670dd1-b9ac-4b7e-bdf3-b546c62c5983)
    ![montyp_2](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/6749d6b4-58a4-44ed-b678-b7fefa0cfa0e)
    <br>
@@ -81,9 +80,8 @@ https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-
    <br>
    ![montyp_5](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/78bfebb5-9ad7-45d1-92e8-11305da8f6d8)
    ![montyp_6](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/2e843fb1-53aa-4fb6-ba53-1944785a081a)
-</div>
+</p>
 
----
 
 ### Disclaimer
 
