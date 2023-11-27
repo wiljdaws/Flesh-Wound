@@ -65,7 +65,10 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
 
 ### Endpoint Spider in Action
 
-https://github.com/wiljdaws/scrapy/assets/98637668/2a27351a-4e1a-4a35-bd45-67b3e87d3ca2
+
+https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-de6c7afad6f4
+
+
 
 ### Disclaimer
 
