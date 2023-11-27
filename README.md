@@ -30,6 +30,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    ```bash
    cd Flesh-Wound/flesh_wound
    ```
+   
    <div align="center">
      <img src="https://media4.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif?cid=ecf05e47jgva86pyiiyllph7g0li5ey6gjqtdqxnzj103crn&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="bruce alighty typing gif">
    </div>
@@ -40,6 +41,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    ```bash
    scrapy runspider endpoint.py -a base=wikipedia
    ```
+   
    <div align="center">
       <img src="https://media0.giphy.com/media/3owzW5c1tPq63MPmWk/giphy.gif?cid=ecf05e47k7ubd0lvev4naa1rpubar1ory073zotrubsgoudl&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="calculating gif">
    </div>
