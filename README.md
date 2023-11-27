@@ -1,6 +1,6 @@
-# Endpoint Spider
+# Flesh Wound
 
-This Scrapy spider, named "endpoint-spider," is designed to crawl and scrape links.
+This Scrapy spider, named "endpoint-spider," is designed to crawl and scrape links and extract all tables found.
 
 ## How to Use
 
