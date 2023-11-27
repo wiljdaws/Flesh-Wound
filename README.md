@@ -7,7 +7,7 @@ This Scrapy spider, named "endpoint-spider," is designed to crawl and scrape lin
 
 ## How to Use
 
-### Prerequisites
+## Prerequisites
 
 Before using the spider, make sure you have Python, Scrapy, and other dependencies installed.
 
@@ -17,13 +17,13 @@ You can install them using the following:
 pip install scrapy
 ```
 
-### Cloning the Repo
+## Cloning the Repo
 
 ```bash
 git clone https://github.com/wiljdaws/Flesh-Wound.git
 ```
 
-### Running the Spider
+## Running the Spider
 
 1. Navigate to the scrapy directory.
 
@@ -43,7 +43,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    - If no base is provided
       - default: `finance.yahoo`
 
-### Spider Behavior
+## Spider Behavior
 
 - The spider starts by visiting the default specified page
    - In this case
@@ -61,12 +61,12 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
             - Extracts tabular data.
       - Extracted tabular data is saved to the tables folder.
 
-### File Structure
+## File Structure
 
 - The spider creates a directory named after the specified base if it doesn't exist.
 - Inside this directory, it saves the unique links to a file named `endpoints.txt`.
 
-### Endpoint Spider in Action
+## Endpoint Spider in Action
 
 
 https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-de6c7afad6f4
@@ -79,7 +79,7 @@ https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-
 
 ---
 
-### Disclaimer
+## Disclaimer
 
 **Note:** Ensure that your use of this spider complies with all applicable laws and regulations. Respect the terms of service of the websites you are scraping. Unauthorized scraping may violate the terms of service of a website and could lead to legal consequences. Use this spider responsibly and ethically.
 
