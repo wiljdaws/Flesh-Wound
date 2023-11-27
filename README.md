@@ -17,7 +17,7 @@ pip install scrapy
 ### Cloning the Repo
 
 ```bash
-git clone https://github.com/wiljdaws/scrapy.git
+git clone https://github.com/wiljdaws/Flesh-Wound.git
 ```
 
 ### Running the Spider
@@ -25,7 +25,7 @@ git clone https://github.com/wiljdaws/scrapy.git
 1. Navigate to the scrapy directory.
 
    ```bash
-   cd scrapy/scrapy
+   cd flesh_wound/flesh_wound
    ```
    ![jim](https://github.com/wiljdaws/scrapy/assets/98637668/062d0bb9-3973-43c6-92bc-ef4bc61b4b5f)
 
