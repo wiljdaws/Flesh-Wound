@@ -31,7 +31,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    cd Flesh-Wound/flesh_wound
    ```
    <div align="center">
-     <img src="https://media4.giphy.com/media/fQZX2aoRC1Tqw/200w.webp?cid=ecf05e47jgva86pyiiyllph7g0li5ey6gjqtdqxnzj103crn&ep=v1_gifs_search&rid=200w.webp&ct=g" alt="bruce alighty typing gif">
+     <img src="https://media4.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif?cid=ecf05e47jgva86pyiiyllph7g0li5ey6gjqtdqxnzj103crn&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="bruce alighty typing gif">
    </div>
 
 
