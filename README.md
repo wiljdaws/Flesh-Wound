@@ -28,7 +28,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
 1. Navigate to the scrapy directory.
 
    ```bash
-   cd Flesh-Wound/flesh_wound
+   cd Flesh-Wound/flesh_wound/spiders
    ```
 
    ---
