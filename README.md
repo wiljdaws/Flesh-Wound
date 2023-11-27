@@ -1,4 +1,5 @@
 # Flesh Wound
+![fleshwound](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/a051249e-13a1-4a7e-a21f-b352c3c48c9d)
 
 This Scrapy spider, named "endpoint-spider," is designed to crawl and scrape links and extract all tables found.
 
