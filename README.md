@@ -39,7 +39,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
    ```
    ![zack](https://github.com/wiljdaws/scrapy/assets/98637668/c3906339-2207-45b1-81be-1b3b0045652b)
 
-   Replace `wikipedia` with your desired base name.
+   Replace `wikipedia` with your desired base (website) name.
    - If no base is provided
       - default: `finance.yahoo`
 
