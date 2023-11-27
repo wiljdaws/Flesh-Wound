@@ -71,7 +71,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
 
 https://github.com/wiljdaws/Flesh-Wound/assets/98637668/b7b0057b-7cae-4a5e-baee-de6c7afad6f4
 
-![montyp_1](https://github.com/wiljdaws/Flesh-Wound/assets/98637668/c7fa29b6-2a4d-4414-bbbc-98f9e1686f8e)
+![montyp_1](https://tenor.com/view/monty-python-ive-had-worse-flesh-wound-scratch-gif-10847683)
 
 
 ### Disclaimer
