@@ -42,7 +42,7 @@ git clone https://github.com/wiljdaws/Flesh-Wound.git
 3. Run the spider using the following command:
 
    ```bash
-   scrapy runspider endpoint.py -a base=wikipedia
+   scrapy runspider endpoint.py -a base=yahoo
    ```
 
    ---
