@@ -2,11 +2,10 @@ import scrapy
 import os
 import csv
 import logging
-from urllib.parse import urlparse
 
 class EndpointSpider(scrapy.Spider):
     name = 'endpoint-spider'
-    base = 'reddit.com/r/'
+    base = 'finance.yahoo'
 
     def __init__(self, *args, **kwargs):
         super(EndpointSpider, self).__init__(*args, **kwargs)
@@ -15,8 +14,6 @@ class EndpointSpider(scrapy.Spider):
         self.links_file = os.path.join(self.base_dir, 'endpoints.txt')
         self.tables_dir = os.path.join(self.base_dir, 'tables')
         self.logs_dir = os.path.join(self.base_dir, 'logs')
-        self.images_dir = os.path.join(self.base_dir, 'images')
-        self.videos_dir = os.path.join(self.base_dir, 'videos')
         self.setup_logging()
 
     def setup_logging(self):
@@ -43,7 +40,7 @@ class EndpointSpider(scrapy.Spider):
 
         base = getattr(self, 'base', 'finance.yahoo')
         if not base.startswith(('http://', 'https://')):
-            base = f'https://www.{base}'
+            base = f'https://www.{base}.com'
         
         self.start_urls = [base]
 
@@ -53,8 +50,6 @@ class EndpointSpider(scrapy.Spider):
     def parse(self, response):
         try:
             links = response.css('a::attr(href)').getall()
-            images = response.css('img::attr(src)').getall()
-            videos = response.css('video::attr(src)').getall()
 
             for link in links:
                 full_link = response.urljoin(link)
@@ -64,14 +59,6 @@ class EndpointSpider(scrapy.Spider):
 
                 if link.startswith(('http://', 'https://')) and self.base in link:
                     yield response.follow(link, self.parse)
-
-            for image in images:
-                full_image_url = response.urljoin(image)
-                yield scrapy.Request(full_image_url, callback=self.save_image)
-
-            for video in videos:
-                full_video_url = response.urljoin(video)
-                yield scrapy.Request(full_video_url, callback=self.save_video)
 
             table_selectors = ['table', 'div.data-table']
 
@@ -129,38 +116,6 @@ class EndpointSpider(scrapy.Spider):
         except Exception as e:
             # Log the error and continue
             logging.error(f"Error saving table to CSV: {str(e)}")
-
-    def save_image(self, response):
-        try:
-            if not os.path.exists(self.images_dir):
-                os.makedirs(self.images_dir)
-
-            image_url = response.url
-            image_name = os.path.basename(urlparse(image_url).path)
-            image_path = os.path.join(self.images_dir, image_name)
-
-            with open(image_path, 'wb') as f:
-                f.write(response.body)
-            logging.info(f"Saved image {image_url} to {image_path}")
-
-        except Exception as e:
-            logging.error(f"Error saving image {response.url}: {str(e)}")
-
-    def save_video(self, response):
-        try:
-            if not os.path.exists(self.videos_dir):
-                os.makedirs(self.videos_dir)
-
-            video_url = response.url
-            video_name = os.path.basename(urlparse(video_url).path)
-            video_path = os.path.join(self.videos_dir, video_name)
-
-            with open(video_path, 'wb') as f:
-                f.write(response.body)
-            logging.info(f"Saved video {video_url} to {video_path}")
-
-        except Exception as e:
-            logging.error(f"Error saving video {response.url}: {str(e)}")
 
 if __name__ == "__main__":
     from scrapy import cmdline
